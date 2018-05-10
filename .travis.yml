@@ -1,8 +1,8 @@
 before_install:
-    - ./install_miniconda.sh
+    - source install_miniconda.sh
 
 install:
-    - echo "INSTALL"
+    - echo "$PATH"
 
 script:
     - conda --version

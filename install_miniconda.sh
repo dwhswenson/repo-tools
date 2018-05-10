@@ -1,10 +1,12 @@
 #!/bin/bash
 
 # Usage:
-#   ./install_miniconda.sh
+#   source install_miniconda.sh
 # 
-# Note that there are two environment variables that you can set to change
-# behavior: 
+# Note that this must be sourced, not executed. This is because it changes
+# environment variables.
+#
+# There are two environment variables that you can set to change behavior: 
 #  * $CONDA_PY will affect which Python version is default in miniconda, and
 #    will also be used by conda to select the Python version. If unset,
 #    default is "36".
