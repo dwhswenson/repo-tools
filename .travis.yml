@@ -1,0 +1,5 @@
+before_instalL:
+    - ./install_miniconda.sh
+
+script:
+    - conda --version
